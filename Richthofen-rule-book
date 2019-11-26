@@ -8,51 +8,64 @@ The Object of Game:
 Simple. Shoot down your opponent.
 
 The Deck:
-You play with a single deck of 31cards, not counting your pilot card.
+You play with a single deck of 31cards, not counting your pilot or aircraft card.
 
+Pilot Card :
+Aircraft Card:
 The Dice:
-The dice is used to keep track of your airframe points. You start the game with eight (8). 
-When you have had your airframe reduced to zero (0) you are shot down.
+  The dice is used to keep track of your airframe points. You start the game with eight (8). 
+  When you have had your airframe reduced to zero (0) you are shot down.
 
 Setup:
-Sort all the action cards into piles, separated by the medal icon on the card. 
-The two medal icons are the Blue Max, for the Germans, or the Victoria Cross for the allies.
+Sort all the action cards into piles, separated by the medal icon on the card back. 
+The two medal icons are the Blue Max, for the Germans, and the Victoria Cross for the allies.
 
-Randomly select, a pilot card and place your pilot card in the middle of the table and draw four (4) cards into your hand.
+Select, a pilot card and an aircraft card. place your aircraft card in the middle of the table facing your opponents aircraft card,
+place your pilot card in fron of you and draw four (4) cards into your hand.
 
-Sequence of play:
-a) Clear jammed guns. (as required)
-b) Determine which pilot has the Advantage.
-c) Play maneuvers
-d) Produce burst damage (Attacker); Or
-e) Attempt to gain the Advantage. (Defender)
+Phases of play:
+Disengaged Phase:
+  DP-1) Determine which pilot has the advantage.
+  
+  DP-1) Determine Advantage:
+  When pilots are disengaged, you need to determine who gains the Advantage. 
+  a) Each player flips over the top card of their deck, compare burst values, highest burst value wins the initiative. 
+  If tied, repeat a). 
+  The player who gains the advantage is the attacker and the loser is the defender. 
+  
+Combat Phase: 
+  CP-1) Clear jammed guns. (as Required)
+  CP-2) Play maneuvers (Required)
+    a) Defender plays a maneuver (Required)
+    b) attacker plays a monuver (Required)
+  CP-3) Attacker produces burst damage (Attacker matches Defender's maneuver); Or
+  CP-4) Defender gain the advantage. (Attacker can not match a Defender's maneuver)
+ 
+  An Attacker who matched a Defender’s maneuver maintains the Advantage to start the next Combat Phase.
+  A Defender who's maneuver is unmatched by the Attacker, now become the Attacker for the next Combat Phase.
+  
+  The Combat Phase continues until one player has been shot down or players become disengaged.
 
-This sequence continues until one player has been shot down.
+CP-1) Clear jammed guns: (as Required)
+  During the game a you may have your guns jam. 
+  To unjam your guns, flip over the top card from your deck, if the burst value is a one (1) then your guns are unjammed. 
+  If the burst value is greater than one (1), your guns remain jammed. 
+  
+  During play, you can play the “Clear Jammed Guns” card at any time from your hand to clear jamed guns.
 
-a) Clear jammed guns:
-During the game a you may have your guns jam. To unjam your guns, flip over the top card from your deck, 
-if the burst value is a one (1) then your guns are unjammed. If the burst value is greater than one (1), 
-your guns remain jammed for the rest of this turn, unless during your turn, you can play the “Clear Jammed Guns” card.
+CP-2) Playing Maneuvers: (Required)
+  Maneuvers are only played during the combat phase and are used to simulate aircraft maneuvering during a dog fight. 
+  A player must play a maneuver from a card in their hand. 
+  
+  a) The defender chooses one of the two defensive maneuvers printed on any of the cards in their hand, or plays
+  an Advanced Maneuver Printed on any card in their hand.
+  The Defender plays the card, by placing it on the table and announces the maneuver that they are performing. 
 
-b) Determine Advantage:
+  b) The attacker must play a maneuver from their hand. If the attacking maneuver does not match the maneuver 
+  that the defender played, then the attacker has failed to match maneuvers. (See e) Gaining the advantage next combat phase. 
+  If the attacking maneuver matches the defensive maneuver, the attacker can produce burst damage.
 
-When pilots are disengaged, you need to determine who gains the initial Advantage. 
-Flip over the top card of your deck, compare burst values, high score wins the initiative. 
-If tied, determine advantage again. The player who gains the advantage is the attacker and the loser is the defender.  
-
-An Attacker who matched a defender’s maneuver from the previous turn maintains the Advantage to start this turn.
-
-c) Playing Maneuvers:
-Maneuvers are only played during a dogfight and are used to simulate aircraft maneuvering into a position to fire its 
-guns on an opponent. A player must play a maneuver from a card in their hand. The defender chooses one of the two defensive 
-maneuvers printed on any of the cards in his hand. Plays the card, by placing it on the table and announces the maneuver that 
-they are performing. The attacker must play a maneuver from their hand. If the attacking maneuver does not match the maneuver 
-that the defender played, then the attacker has failed to match maneuvers. (See e) Gaining the advantage:) If the attacking 
-maneuver matches the defensive maneuver, the attacker can produce burst damage.
-
-Each player draws a card into their hand after they play a maneuver and before they resolve any “Burst Attacks”
-
-d) Produce Burst damage
+CP-3) Produce Burst damage
 Once maneuvers are matched, the attacker can produce burst damage. This is called a “Burst Attack”. To produce a “Burst Attack”, 
 flip over the top card of the attacker’s deck, the burst value that is printed on that card is the number of burst damage you subtract 
 from the defender’s airframe value.
@@ -63,7 +76,7 @@ attacker’s hand. If the attacker cannot or does not wish to play any cards fro
 The defender now has one chance to modify the burst damage produced. This is done by playing an appropriate card or cards from the 
 defender’s hand. If the defender cannot or does not wish to play any cards from their hand, then they pass.
 
-e) Gaining the advantage:
+CP-4) Gaining the advantage:
 If an attacker is unable to match a defensive maneuver, the defender gets a chance to gain the advantage and avoid becoming disengaged. 
 To gain the advantage, the defender needs to match the last attacking maneuver played by the attacking player. 
 If the defender matches the maneuver, then the defender becomes the attacker. If the defender fails to match the maneuver, 
@@ -71,7 +84,8 @@ then the pilots are considered disengaged. If the defender is not required to tr
 maneuver to become disengaged.
 
 Drawing Cards:
-When a card is played from your hand
+  When a card is played from a players hand, if they have less cards in their hand than their min. hand size, they immediately draw a card into 
+  their hand, back to their min. hand size.
 
 Shot Down:
 When an aircraft’s airframe value has been reduced to zero (0) or less, the aircraft has been shot down. 
